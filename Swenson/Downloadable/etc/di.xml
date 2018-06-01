@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Downloadable\Model\Link" type="Swenson\Downloadable\Model\Link" />
+    <preference for="Magento\Downloadable\Model\LinkRepository" type="Swenson\Downloadable\Model\LinkRepository" />
+    <preference for="Magento\Downloadable\Ui\DataProvider\Product\Form\Modifier\Links" type="Swenson\Downloadable\Ui\DataProvider\Product\Form\Modifier\Links" />
+    <preference for="Magento\Downloadable\Ui\DataProvider\Product\Form\Modifier\Data\Links" type="Swenson\Downloadable\Ui\DataProvider\Product\Form\Modifier\Data\Links" />
+    <preference for="Magento\Downloadable\Block\Customer\Products\ListProducts" type="Swenson\Downloadable\Block\Customer\Products\ListProducts" />
+</config>
